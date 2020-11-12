@@ -46,7 +46,7 @@ namespace Crud2020.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Userid,UserName,Password,Email,Telefono")] User user)
+        public ActionResult Create([Bind(Include = "UserName,Password,Email,Telefono")] User user)
         {
             if (ModelState.IsValid)
             {

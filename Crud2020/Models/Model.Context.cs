@@ -26,6 +26,5 @@ namespace Crud2020.Models
         }
     
         public virtual DbSet<User> Users { get; set; }
-        public object User { get; internal set; }
     }
 }
