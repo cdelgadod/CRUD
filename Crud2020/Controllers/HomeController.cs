@@ -21,6 +21,12 @@ namespace Crud2020.Controllers
 
             return View();
         }
+        public ActionResult Inventario()
+        {
+
+
+            return View();
+        }
 
         public ActionResult Contact()
         {
